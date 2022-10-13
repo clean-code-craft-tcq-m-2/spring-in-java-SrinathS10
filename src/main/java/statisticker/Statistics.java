@@ -25,7 +25,7 @@ public class Statistics
                 }
                 sum = sum + num;
             }
-            stats.average =  sum/numbers.size();
+            stats.average =  sum/n;
         }
         else {
             stats.max = stats.min = stats.average = Float.NaN;
